@@ -1,0 +1,174 @@
+.top-container {
+  background-color: #E4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+.circular{
+  border-radius: 100%;
+}
+.designation{
+   color: #66BFBF;
+   font-weight: normal;
+}
+
+.middle-container {
+  padding: 100px 0;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+  padding-bottom: 30px;
+}
+
+.bottom-container {
+  padding: 50px 0 20px;
+  background-color: #66BFBF;
+}
+a{
+  color: #11999E;
+  margin: 10px 20px;
+  top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAf6f6;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  color: #40514E;
+
+}
+
+h1 {
+  font-size: 5.265rem; /* 16px=100%=1em*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #11999E;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:  #11999E;
+}
+a{
+  color:  #11999E;
+}
+.top-cloud {
+  position: absolute;
+  right: 280px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.web{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.android{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.java{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.SQL{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.microcontroller{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.myname{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+hr{
+  border-style: dotted none none none;
+  border-width: 6px;
+  width: 4%;
+  color: grey;
+  margin: 100px auto;
+}
+p{
+  line-height: 2;
+}
+.contact-me{
+  width: 40%;
+  margin: 40px auto;
+}
+.btn {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4584c7), color-stop(1, #2abdb6) );
+	background:-moz-linear-gradient( center top, #4584c7 5%, #2abdb6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4584c7', endColorstr='#2abdb6');
+	background-color:#4584c7;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius-topleft:8px;
+	border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topright:8px;
+	border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomleft:8px;
+	border-bottom-left-radius:8px;
+text-indent:0;
+	border:1px solid #2f19ab;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:20px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #283766;
+}
+.btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2abdb6), color-stop(1, #4584c7) );
+	background:-moz-linear-gradient( center top, #2abdb6 5%, #4584c7 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2abdb6', endColorstr='#4584c7');
+	background-color:#2abdb6;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+/* clear:left---- this css command will put the text to left instead of keeping it right */
